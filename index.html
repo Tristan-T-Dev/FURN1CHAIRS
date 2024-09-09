@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>FurniChair</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#Home" class="logo">FURN1CHAIRS</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu-alt-right' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#Home" style="--i:0;">Home</a>
+            <a href="#Trends" style="--i:2;">Trends</a>
+            <a href="#Products" style="--i:1;">Products</a>
+        </nav>
+    </header>
+<main>
+    <section id="Home" class="landing">  
+        <h1>Elevate your home</h1>
+        <h5>with sleek</h5>
+    </section>
+
+    <section id="Trends" class="trends">
+        <h2 class="headline-p2" id="trends">TRENDS</h2>
+
+            <div class="carousel">
+                <div class="list">
+                    <div class="item">
+                        <img src="./assets/trend1.png" alt="">
+                        <div class="intro">
+                            <div class="topic">Cambridge Chair</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                Inspired by traditional British design, this chair features a stately profile with clean lines and subtle curves, making it a versatile addition to both contemporary and classic interiors.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/trend.png" alt="">
+                        <div class="intro">
+                            <div class="topic">Harmony Chair</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                The seat itself seems to be made of black leather, slightly worn with a natural patina, complementing the warm tones of the wood.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/trend2.png" alt="">
+                        <div class="intro">
+                            <div class="topic">Serpentine Lounger</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                Made from rich, polished wood, this lounger showcases an intricate grain pattern, enhancing its organic form.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/trend3.png" alt="">
+                        <div class="intro">
+                            <div class="topic">Luxe Drift Chair</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                Designed for those who appreciate both style and relaxation, this chair features a gracefully curved wooden frame that evokes a feeling of fluid motion, much like a drift on a gentle breeze.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/trend4.png" alt="">
+                        <div class="intro">
+                            <div class="topic">Zen Curve Lounger</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                The lounger is finished with high-quality upholstery that has inviting appeal, available in a variety of soothing, earthy tones.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/trend6.png" alt="">
+                        <div class="intro">
+                            <div class="topic">Cubic Frame Chair</div>
+                            <div class="des">
+                                <!-- 20 lorem -->
+                                Crafted with a strong yet refined frame, the chair's silhouette embodies a cubic essence, offering both visual intrigue and structural balance.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="arrows">
+                    <button id="prev"><</button>
+                    <button id="back">Go Back &#8599</button>
+                    <button id="next">></button>
+                </div>
+            </div>
+                         
+    </section>
+
+    <section id="Products" class="product">
+        <h2 class="headline-p2" id="autoShow">PRODUCTS</h2>
+        <div class="row">
+            <div class="left" id="autoShow">
+                <img src="./assets/product1.png" alt="">
+            </div>
+            <div class="right" id="autoShow">
+                <div class="content">
+                    <h2>Drop Chair</h2>
+                    <p>The combination of metal and fabric offers a 
+                        balance of industrial and cozy aesthetics, making
+                         it suitable for contemporary interiors. The form
+                          appears to be an artistic blend of a rocking chair 
+                          and a lounge chair, creating a unique statement piece.</p>
+                </div>
+            </div>
+            <div class="left" id="autoShow">
+                <img src="./assets/product2.png" alt="">
+            </div>
+            <div class="right" id="autoShow">
+                <div class="content">
+                    <h2>Frame Chair</h2>
+                    <p>Perfect for adding a bold statement to any living space or modern interior. Designed for both comfort and style, the chair's plush, velvet upholstery provides a cozy seating experience, while the curved frame adds an elegant, contemporary touch.</p>
+                </div>
+            </div>
+            <div class="left" id="autoShow">
+                <img src="./assets/product3.png" alt="">
+            </div>
+            <div class="right" id="autoShow">
+                <div class="content">
+                    <h2>Futuristic Metallic Chairs</h2>
+                    <p>Perfect for adding a sophisticated, contemporary flair to any space. Their seamless, fluid form is both artistic and ergonomic, offering a bold yet comfortable seating option.</p>
+                </div>
+            </div>
+            <div class="left" id="autoShow">
+                <img src="./assets/trend.png" alt="">
+            </div>
+            <div class="right" id="autoShow">
+                <div class="content">
+                    <h2>Curved Wooden flat Chair</h2>
+                    <p>The seat itself seems to be made of black leather, slightly worn with a natural patina, complementing the warm tones of the wood. The overall design evokes a blend of functionality and artistic craftsmanship.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--<footer>
+<p>2024 FurniChair. All rights reserved.</p>
+</footer>-->
+
+    <script src="app.js"></script>
+</body>
+</html>

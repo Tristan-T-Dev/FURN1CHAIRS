@@ -1,0 +1,24 @@
+@font-face{
+    font-family: Soka-normal;
+    src: url('../fonts/');
+}
+
+@font-face{
+    font-family: Dorsa;
+    src: url('../fonts/Dorsa/Dorsa-Regular.ttf');
+}
+
+@font-face{
+    font-family: Trento;
+    src: url('../fonts/Trento-Typeface/Trento\ Typeface.ttf');
+}
+
+@font-face{
+    font-family: Megante;
+    src: url('../fonts/Megante_Font_Family_(Fontmirror)/MegantŽ-Personal-Use-Only 400.ttf');
+}
+
+@font-face{
+    font-family: Poppins;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
